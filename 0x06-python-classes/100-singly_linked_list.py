@@ -1,4 +1,8 @@
 #!/usr/bin/python3
+"""Class that defines a node of a singly linked list
+"""
+
+
 class Node:
     def __init__(self, data, next_node=None):
         self.data = data
@@ -23,6 +27,10 @@ class Node:
         if not isinstance(value, Node) and value is not None:
             raise TypeError("next_node must be a Node object")
         self.__next_node = value
+
+
+"""Class that defines a singly linked list
+"""
 
 
 class SinglyLinkedList:
