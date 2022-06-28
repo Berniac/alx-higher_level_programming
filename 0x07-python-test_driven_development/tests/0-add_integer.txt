@@ -1,0 +1,47 @@
+0-add_integers.py Tests
+=======================
+
+Use of ``add_integer``
+----------------------
+>>> add_integer = __import__('0-add_integer').add_integer
+>>> add_integer(1, 2)
+3
+>>> add_integer(3, 8.7)
+11
+>>> add_integer(50, -5)
+45
+>>> add_integer(10.5, 29.2)
+39
+>>> add_integer(3)
+101
+>>> add_integer(-4)
+94
+>>> add_integer("Yep", 5)
+Traceback (most recent call last):
+	...
+TypeError: a must be an integer
+
+>>> add_integer(6, "Nope")
+Traceback (most recent call last):
+	...
+TypeError: b must be an integer
+
+>>> add_integer("Helo")
+Traceback (most recent call last):
+	...
+TypeError: a must be an integer
+
+>>> add_integer(float('inf'), 0)
+Traceback (most recent call last):
+	...
+OverflowError: cannot convert float infinity to integer
+
+>>> add_integr(float('inf'), float('-inf'))
+Traceback (most recent call last):
+	...
+OverflowError: cannot convert float infinity to integer
+
+>>> add_integer(0, float('nan'))
+Traceback (most recent call last):
+	...
+ValueError: cannot convert float NaN to integer
