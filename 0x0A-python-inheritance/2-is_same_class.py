@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """
-Module that contains function that checks if an instance is of a specified class
+Module that contains function that checks if an instance
+is of a specified class
 """
 
 
