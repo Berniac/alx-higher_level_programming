@@ -1,4 +1,10 @@
 #!/usr/bin/python3
+"""
+Module that consists of class Square
+that inherits from class Rectangle
+"""
+
+
 Rectangle = __import__('9-rectangle').Rectangle
 
 
