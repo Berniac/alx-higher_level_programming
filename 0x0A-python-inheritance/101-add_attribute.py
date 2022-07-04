@@ -1,4 +1,4 @@
-#!/usr/bin/pyhon3
+#!/usr/bin/python3
 """
 Module that contains function that adds a new attribute
 to an object
