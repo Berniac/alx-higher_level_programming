@@ -1,5 +1,11 @@
 #!/usr/bin/python3
-def print_sorted(self):
+"""
+Module that consists of a class that inherits from another class list 
+and a method that prints the list sorted in ascending order
+"""
+
+
+class MyList(list):
     """ Class that inherits from class list
 
     Args:
