@@ -1,4 +1,10 @@
 #!/usr/bin/pyhon3
+"""
+Module that contains function that adds a new attribute
+to an object
+"""
+
+
 def add_attribute(obj, name, value):
     """ Function that adds a new attribute to an object
 
