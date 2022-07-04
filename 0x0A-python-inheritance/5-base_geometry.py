@@ -5,5 +5,6 @@ Module that contains an empty class
 
 
 class BaseGeometry:
+    """ Empty Class """
     def __init__(self):
         pass
