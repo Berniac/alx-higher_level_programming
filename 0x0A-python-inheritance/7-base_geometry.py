@@ -1,4 +1,9 @@
 #!/usr/bin/python3
+"""
+Module that conssists of class BaseGeometry
+"""
+
+
 class BaseGeometry:
     """ Class that defines attributesof Geometric shapes """
     def area(self):
