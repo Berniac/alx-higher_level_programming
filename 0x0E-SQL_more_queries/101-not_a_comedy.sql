@@ -1,3 +1,4 @@
+-- lists all shows without the genre Comedy in the database hbtn_0d_tvshows
 SELECT tv_shows.title FROM tv_shows
 LEFT JOIN
 (SELECT tv_shows.title FROM tv_genres
