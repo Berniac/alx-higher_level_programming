@@ -3,6 +3,7 @@
 here we are going to connect to a database and realize a
 query
 """
+
 import sys
 import MySQLdb
 
