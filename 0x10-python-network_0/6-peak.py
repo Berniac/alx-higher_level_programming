@@ -19,7 +19,7 @@ def recursion(begin, last, l):
     elif (m < last - 1 and l[m] < l[m + 1]):
         return (recursion(m, last, l))
     else:
-        return(None)
+        return (None)
 
 
 def find_peak(list_of_integers):
